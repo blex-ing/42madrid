@@ -9,7 +9,7 @@ Aprendizaje del entorno linux y conceptos de programación en C
 ## Créditos 
 Autor(es) 42
 ## Licencia 
-Licencia del proyecto (open source)
+Licencia del proyecto (open source).
 
 
 
