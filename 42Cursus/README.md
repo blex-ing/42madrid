@@ -1,3 +1,3 @@
 # Todos los ejercicios del cursus
 
-## 1 >Libft
+## 1 Libft
