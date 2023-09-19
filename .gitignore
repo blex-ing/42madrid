@@ -4,8 +4,14 @@
 # Ignorar archivos de registro
 *.log
 
-# Ignorar archivos objeto y test
+# Ignorar archivos objeto
 *.o
+
+#Ignorar programa
+
+mi*
+
+# Ignorar test
 mi_*.c
 test_*.c
 main.c
