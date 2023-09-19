@@ -12,7 +12,9 @@
 * Paso 2: compilar todo con:
 ```make```
 
-* Compilar programa agregando la libreria Libft.
+### Agregar libreria a un programa
+
+* Para poder usar la libreria creada anteriormente, se tiene que compilar el programa agregando la libreria Libft.
 
 ``` gcc -o mi_test_vs test_ft_vs_isalpha.c -L. -lft```
 
