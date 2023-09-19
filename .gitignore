@@ -5,5 +5,7 @@
 *.log
 
 # Ignorar archivos objeto y test
+*.o
 mi_*.c
 test_*.c
+main.c
