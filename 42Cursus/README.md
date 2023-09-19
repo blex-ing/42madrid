@@ -2,7 +2,18 @@
 
 ## 1 Libft
 
-* Compilar programa agregando la libreria Libft
+### Crear libreria
+
+* Paso 1: Crear 3 tipos de archivos 
+    * codigo fuente (.c)
+    * cabezera (.h)
+    * Makefile
+
+* Paso 2: compilar todo con:
+```make```
+
+* Compilar programa agregando la libreria Libft.
+
 ``` gcc -o mi_test_vs test_ft_vs_isalpha.c -L. -lft```
 
 
