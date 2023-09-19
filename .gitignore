@@ -1,0 +1,9 @@
+# Ignorar archivos temporales generados por el editor de texto
+*~
+
+# Ignorar archivos de registro
+*.log
+
+# Ignorar archivos objeto y test
+mi_*.c
+test_*.c
