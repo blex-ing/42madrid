@@ -3,5 +3,5 @@
 
 int	ft_isalpha(int c)
 {
-	return (((unsigned)c | 32) - 'a' < 26);
+	return (((c >= 'a') && ( c <= 'z')) || ((c >= 'A') && ( c <= 'Z')));
 }

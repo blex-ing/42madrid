@@ -6,9 +6,9 @@
 
 int main(void)
 {
-  char str1 = 'A';
-  char str2 = 'Z';
-  char str3 = ' ';
+  int str1 = 'A';
+  int str2 = 'Z';
+  int str3 = ' ';
 
 
   printf("%c es alfabetico? %d\n", str1, ft_isalpha(str1));
