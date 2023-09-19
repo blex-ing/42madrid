@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Werror -Wextra
-SRC = factorial.c
+SRC = ft_isalpha.c
 OBJ = $(SRC:.c=.o)
 NAME = libft.a
 

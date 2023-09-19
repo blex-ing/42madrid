@@ -1,15 +1,7 @@
 
 #include "libft.h"
 
-int	ft_isalpha(char *str)
+int	ft_isalpha(int c)
 {
-	while (*str != '\0')
-	{
-		if (((*str < 'a') || (*str > 'z')) && ((*str < 'A') || (*str > 'Z')))
-		{
-			return (0);
-		}
-		str++;
-	}
-	return (1);
+	return (((unsigned)c | 32) - 'a' < 26);
 }
