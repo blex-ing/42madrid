@@ -7,6 +7,10 @@
 # Ignorar archivos objeto
 *.o
 
+# Ignorar libreria
+
+*.a
+
 #Ignorar programa
 
 mi*

@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Werror -Wextra
-SRC = ft_isalpha.c
+SRC =  $(wildcard ft_*.c)
 OBJ = $(SRC:.c=.o)
 NAME = libft.a
 
