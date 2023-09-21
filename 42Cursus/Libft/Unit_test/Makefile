@@ -2,10 +2,9 @@
 # INCLUDE_DIRS = ../
 CC = gcc
 CFLAGS = -Wall -Werror -Wextra
-SRC = test_ft_vs_isascii.c
+SRC = test_ft_vs_strlen.c
 OBJ = $(SRC:.c=.o)
-NAME = mi_test_ft_vs_isascii
-
+NAME = mi_test_ft_vs_strlen
 all: $(NAME)
 
 $(NAME): $(OBJ)
