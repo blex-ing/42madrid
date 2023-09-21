@@ -17,5 +17,5 @@ mi*
 
 # Ignorar test
 mi_*.c
-test_*.c
+#test_*.c
 main.c
