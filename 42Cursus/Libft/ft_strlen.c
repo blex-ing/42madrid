@@ -6,15 +6,15 @@
 /*   By: aleespin <aleespin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/16 17:31:54 by aleespin          #+#    #+#             */
-/*   Updated: 2023/09/21 18:05:42 by aleespin         ###   ########.fr       */
+/*   Updated: 2023/09/22 16:51:58 by aleespin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_strlen(const char *str)
+size_t	ft_strlen(const char *str)
 {
-	int	cont;
+	size_t	cont;
 
 	cont = 0;
 	while (*str != '\0')
