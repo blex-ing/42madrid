@@ -15,14 +15,14 @@
 void	ft_bzero(void *s, size_t n)
 {
 	char	*p;
-    size_t aux;
+	size_t	aux;
 
-    aux = 0;
-    p = s;
-    while (aux < n)
+	aux = 0;
+	p = s;
+	while (aux < n)
 	{
 		*p = 0;
 		aux++;
-        p++;
-    }
+		p++;
+	}
 }
