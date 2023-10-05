@@ -7,7 +7,7 @@ Uso de shell y lenguaje de programación linux.
 ## Uso 
 Aprendizaje del entorno linux y conceptos de programación en C
 ## Créditos 
-Autor(es) 42 y alumno
+Autor(es) 42 y alumno .
 ## Licencia 
 Licencia del proyecto (open source).
 
