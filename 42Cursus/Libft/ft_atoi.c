@@ -6,49 +6,36 @@
 /*   By: aleespin <aleespin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/05 17:56:01 by aleespin          #+#    #+#             */
-/*   Updated: 2023/10/05 18:23:01 by aleespin         ###   ########.fr       */
+/*   Updated: 2023/10/05 19:07:17 by aleespin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
-int	ft_isspace(char space)
-{
-	if (((space >= 9) && (space <= 13)) || (space == 32))
-	{
-		return (1);
-	}
-	return (0);
-}
-
-int	ft_isoperator(char operator)
-{
-	if (operator == '-' || operator == '+')
-		return (1);
-	return (0);
-}
-
-
-
-int	ft_atoi(char *str)
+int	ft_atoi(const char *str)
 {
 	char	*mov;
 	int		operator;
 	int		num;
 
-	mov = str;
+	mov = (char *)str;
 	operator = 1;
 	num = 0;
-	while (ft_isspace(*mov))
-	{
+	while (((*mov >= 9) && (*mov <= 13)) || (*mov == 32))
 		mov++;
-	}
-	while (ft_isoperator(*mov))
-	{
-		if (*mov == '-')
-			operator *= -1;
-		mov++;
-	}
+    if (*mov == '-')
+    {
+		operator *= -1;
+        mov++;
+        if( *mov == '+' || *mov == '-')
+            return (0);
+    }
+    if (*mov == '+')
+    {
+        mov++;
+        if( *mov == '+' || *mov == '-')
+            return (0);
+    }
 	while (ft_isdigit(*mov) && (*mov != '\0'))
 	{
 		num = (num * 10) + (*mov - '0');
