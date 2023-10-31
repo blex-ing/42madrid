@@ -6,7 +6,7 @@
 /*   By: aleespin <aleespin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/21 18:06:53 by aleespin          #+#    #+#             */
-/*   Updated: 2023/10/05 18:48:19 by aleespin         ###   ########.fr       */
+/*   Updated: 2023/10/31 19:50:20 by aleespin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,5 +38,5 @@ int	ft_atoi(const char *str);
 void *ft_calloc(size_t nmemb, size_t size);
 char *ft_strdup(const char *s);
 char *ft_substr(char const *s, unsigned int start, size_t len);
-
+// char	**ft_split(const char *s, char c);
 #endif
